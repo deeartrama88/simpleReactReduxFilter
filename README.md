@@ -3,7 +3,7 @@
 ### Getting Started
 To start developing locally you can do next moves:
 ```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
+	> git clone https://github.com/deeartrama88/simpleReduxStarter.git
 	> cd ReduxSimpleStarter
 	> npm install
 	> npm start
