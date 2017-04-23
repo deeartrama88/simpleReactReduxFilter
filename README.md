@@ -20,7 +20,7 @@ now you builded file in /src/js/bundle.min.js
 You can see demo of this boilerplate here [live demo](https://denis-test-002.herokuapp.com/)
 
 to log in use 
-
+```
 email:challenge@i2x.ai
-
 password:pass123
+```
