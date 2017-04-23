@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+$bg: #362e44;
+$orange: #ffb300;
+
+.loginFailError {
+  color: rgb(244, 67, 54);
+}
+.orange{
+  color: $orange;
+  font-size: 25px;
+  margin: 5px 2px;
+}
+
+body {
+  background: $bg;
+  color: white;
+  font-family: "Roboto", san-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  color: #fff;
+
+  input {
+    display: block;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+span.itemLabel {
+  display: block;
+  background: #66587d;
+}
+
+li {
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 20px;
+  border: 5px solid #8976ab;
+  border-radius: 5px;
+  box-shadow: 0 0 15px black;
+  background: #3b3b6f;
+
+  &:nth-child(odd){
+    background: #712e2e;
+  }
+}
+
+.itemData {
+  display: block;
+
+  .fa-clock-o, .fa-calendar-o {
+    margin-right: 5px;
+  }
+}
+
+.wrap {
+  display: flex;
+  height: 100vh;
+}
+.login {
+  display: inline-block;
+  margin: auto;
+}
+
+audio {
+  width: 100%;
+}
+
+.rateTime {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.logOut {
+  padding: 10px 20px;
+  border: none;
+  background: #ca5151;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 0px 15px black;
+  cursor: pointer;
+  
+  &:hover {
+    background: darken(#ca5151, 10%);
+  }
+}
