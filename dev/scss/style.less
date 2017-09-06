@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-$bg: #362e44;
-$orange: #ffb300;
-
-.loginFailError {
-  color: rgb(244, 67, 54);
-}
-.orange{
-  color: $orange;
-  font-size: 25px;
-  margin: 5px 2px;
-}
-
 body {
-  background: $bg;
   color: white;
   font-family: "Roboto", san-serif;
   margin: 0;
@@ -83,6 +70,9 @@ li {
 .login {
   display: inline-block;
   margin: auto;
+  h1 {
+    color: darkgray;
+  }
 }
 
 audio {
@@ -107,7 +97,7 @@ audio {
   border-bottom-right-radius: 5px;
   box-shadow: 0 0px 15px black;
   cursor: pointer;
-  
+
   &:hover {
     background: darken(#ca5151, 10%);
   }

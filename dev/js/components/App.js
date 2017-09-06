@@ -1,6 +1,6 @@
 import React from "react";
-require('../../scss/style.scss');
-require('../../scss/media.scss');
+require('../../scss/style.less');
+require('../../scss/media.less');
 import Main from '../containers/main';
 
 const App = () => (
