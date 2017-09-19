@@ -8,7 +8,7 @@ import { Router, Route, browserHistory } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux'
 import { applyMiddleware, createStore } from 'redux'
 import allReducers from './reducers'
-import App from './components/app'
+import Main from './containers/main'
 
 const loggerMiddleware = createLogger({
     predicate: (getState, action) => action.type !== "@@redux-form/REGISTER_FIELD"
@@ -28,7 +28,7 @@ const history = syncHistoryWithStore(browserHistory, store)
 ReactDOM.render(
     <Provider store={store}>
         <Router history={history}>
-            <Route path="/" component={App} />
+            <Route path="/" component={Main} />
         </Router>
     </Provider>
     , document.getElementById('root'));
